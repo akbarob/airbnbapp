@@ -1,3 +1,28 @@
 .logo{
   margin-right: 5px;
 }
+.hero-header{
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 110%;
+}
+.hero-text{
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 110%;
+}
+.card-overlay{
+  height: 30px;
+}
+.card{
+  font-family: 'Poppins';
+}
+.card-text{
+  font-size: 12px;
+  font-style:normal ;
+}
+.grey{
+  color: #918E9B;
+}
