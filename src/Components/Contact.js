@@ -1,7 +1,6 @@
 import { Card, CardBody,CardImg,CardHeader, Badge, CardImgOverlay  } from "reactstrap"
-import cat from "../images/cat 1.jpg"
 export default function Contacts(props){
-    console.log(props)
+    
     
     return(
         <div className=" col-12 col-sm-6 col-lg-3 mx-auto">

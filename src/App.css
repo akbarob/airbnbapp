@@ -19,6 +19,9 @@ line-height: 110%;
 .card{
   font-family: 'Poppins';
 }
+.photo{
+  max-height: 235px;
+}
 .card-text{
   font-size: 12px;
   font-style:normal ;

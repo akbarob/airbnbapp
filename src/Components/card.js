@@ -1,22 +1,28 @@
-import { Card, CardBody,CardImg,CardHeader, Badge, CardImgOverlay  } from "reactstrap"
-import swim from "../images/image 12.png"
-export default function Cards(){
+import { Card, CardBody,CardImg, Badge, CardImgOverlay  } from "reactstrap"
+
+export default function Cards(props){
     return(
-        <div>
-            <Card className="col-3 col-sm-2 card border-0">
-                <CardImg src={swim} className="card-image align-self-center">
-                </CardImg>
+        <div className="col-4 col-sm-2 card border-0 mx-auto">
+            <Card>
+                <CardImg src={props.img} className="photo"/>
                 <CardImgOverlay className="card-overlay">
-                <Badge className="bg-light text-dark mt-1">SOLD OUT</Badge>
+                    <Badge className="bg-light text-dark mt-1">{props.badge}</Badge>
                 </CardImgOverlay>
                 <CardBody className="card-body">
-                    <p className="card-text"> <i class="fa-solid fa-star text-danger"></i> 5.0 <span className="grey">(6) • USA</span>
-                    <br/>Life lessons with Katie Zaferes
-                    <br/> <strong>From $136 </strong>/ person
-                    </p>
+                    <div className="row">
+                        <h3 className="card-text">
+                        <i class="fa-solid fa-star text-danger"></i> {props.rating} <span className="grey">{props.reviewCount} • {props.country}</span>
+                        </h3>
+                        <h4 className="card-text">
+                            {props.title}
+                        </h4>
+                        <h4 className="card-text">
+                            <strong>From {props.price}</strong> / person
+                        </h4>
+                    </div>
                 </CardBody>
             </Card>
         </div>
-
+        
     )
 }
