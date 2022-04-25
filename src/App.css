@@ -26,3 +26,10 @@ line-height: 110%;
 .grey{
   color: #918E9B;
 }
+p{
+  font-size: 12px;
+}
+.cat-image{
+  width: 100%;
+  height: auto;
+}
