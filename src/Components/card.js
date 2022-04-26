@@ -1,6 +1,7 @@
 import { Card, CardBody,CardImg, Badge, CardImgOverlay  } from "reactstrap"
 
 export default function Cards(props){
+    console.log(props)
     return(
         <div className="col-4 col-sm-2 card border-0 mx-auto">
             <Card>
@@ -17,7 +18,7 @@ export default function Cards(props){
                             {props.title}
                         </h4>
                         <h4 className="card-text">
-                            <strong>From {props.price}</strong> / person
+                            <strong>From ${props.price}</strong> / person
                         </h4>
                     </div>
                 </CardBody>

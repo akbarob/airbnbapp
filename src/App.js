@@ -25,7 +25,7 @@ function App() {
         <Cards
           img={require("./images/wedding-photography 1.png")}
           rating='3.8'
-          reviewCount="(61)"
+          reviewCount={'(61)'}
           country="Nigeria"
           title="Life Lessons with Katie Zaferes"
           price= '136'
