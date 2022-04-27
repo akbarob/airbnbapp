@@ -32,6 +32,6 @@ export default [
         title:"Life Lessons with Katie Zaferes",
         price: '136',
         badge:"New arrival",
-        openSpots: 5,
+        openSpots: 6,
     }
 ]
