@@ -3,9 +3,9 @@ export default function Contacts(props){
     
     
     return(
-        <div className=" col-12 col-sm-6 col-lg-3 mx-auto">
+        <div className=" col-12 col-sm-6 col-lg-3 mx-5">
             <div className="row">
-            <Card className=" my-3">
+            <Card className=" my-3 bg-light">
                 <CardImg src={props.img} className="cat-image align-self-center"/>
                 
                 <CardBody className="row">
